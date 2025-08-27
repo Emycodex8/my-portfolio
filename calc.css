@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.general{
+    border: 2px solid #000;
+    margin: 150px auto;
+    width: 40%;
+    height: 400px;
+    text-align: center;
+}
+
+.num1-el{
+    border-bottom: 3px solid #000000;
+    width: 40px;
+    font-size: 70px;
+}
+.num2-el{
+    border-bottom: 3px solid #000000;
+    width: 40px;
+    font-size: 70px;
+    margin-left: 30px;
+
+}
+.sdm{
+    margin-top: 40px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.add{
+    height: 60px;
+    width: 20%;
+    border: none;
+    font-weight: bold;
+    font-size: 19px;
+    background-color: rgb(40, 90, 12);
+    color: #fff;
+}
+.multiply{
+    height: 60px;
+    width: 20%; 
+    border: none;
+    font-weight: bold;
+    font-size: 19px;
+    background-color: rgb(40, 90, 12);
+    color: #fff;
+    margin: 50px 0 40px 0;
+}
+
+
+.sum{
+    font-size: 30px;
+}
